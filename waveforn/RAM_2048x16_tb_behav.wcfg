@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="RAM_2048x16_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="RAM_2048x16_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="260.601 ns"></ZoomEndTime>
+      <Cursor1Time time="200.200 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="158"></NameColumnWidth>
+      <ValueColumnWidth column_width="75"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/RAM_2048x16_tb/t_Clk" type="logic">
+      <obj_property name="ElementShortName">t_Clk</obj_property>
+      <obj_property name="ObjectShortName">t_Clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RAM_2048x16_tb/t_CE" type="logic">
+      <obj_property name="ElementShortName">t_CE</obj_property>
+      <obj_property name="ObjectShortName">t_CE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RAM_2048x16_tb/t_w_r" type="logic">
+      <obj_property name="ElementShortName">t_w_r</obj_property>
+      <obj_property name="ObjectShortName">t_w_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RAM_2048x16_tb/t_Addr" type="array">
+      <obj_property name="ElementShortName">t_Addr[10:0]</obj_property>
+      <obj_property name="ObjectShortName">t_Addr[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RAM_2048x16_tb/t_Data_in" type="array">
+      <obj_property name="ElementShortName">t_Data_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">t_Data_in[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RAM_2048x16_tb/DUT/ram" type="array">
+      <obj_property name="ElementShortName">ram[0:2047][15:0]</obj_property>
+      <obj_property name="ObjectShortName">ram[0:2047][15:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RAM_2048x16_tb/t_Data_out" type="array">
+      <obj_property name="ElementShortName">t_Data_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">t_Data_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RAM_2048x16_tb/DUT/index" type="array">
+      <obj_property name="ElementShortName">index[10:0]</obj_property>
+      <obj_property name="ObjectShortName">index[10:0]</obj_property>
+   </wvobject>
+</wave_config>
